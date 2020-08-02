@@ -1,0 +1,217 @@
+
+html, body, div, span, applet, object, iframe,
+ h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+a{
+    text-decoration: none;  
+}
+a:hover{
+    text-decoration: none;
+}
+
+
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* My css */
+
+header{
+    padding: 20px 0;
+}
+.container{
+    
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.logo{
+    
+    flex-basis: 30%;
+}
+.logo a{}
+.logo a img{
+    padding: 5px;
+    max-width: 100%;
+    transition: .4s;
+}
+.logo a img:hover{
+    background-color: rgba(0, 0, 255, 0.082);
+    transform: scale(1.1);
+    border-radius: 5px;
+}
+
+
+nav{
+   
+    flex-basis: 70%;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+
+    
+}
+nav ul li{
+    padding: 0 30px;
+    padding-right: 0;
+}
+nav ul li a{
+    padding: 10px;
+    display: block;
+    color: rgba(0, 0, 0, 0.747);
+    transition: .4s;
+}
+
+nav ul li a:hover{
+    color:black;
+    transform: scale(1.1);
+    background-color: rgba(10, 252, 139, 0.11);
+    border-radius: 5px;
+    
+}
+.banner img{
+    max-width: 100%;
+    padding-bottom: 50px;
+}
+
+.wrapper{
+    width: 60%;
+    margin: auto;
+}
+.getway-content{
+
+}
+.getway-content a{
+    color: rgba(0, 0, 0, 0.658);
+    padding: 15px 0;
+    display: block;
+}
+.getway-content h1{
+    color: rgba(0, 0, 0, 0.747);
+    padding: 15px 0;
+}
+.getway-content p{
+    color: rgba(0, 0, 0, 0.897);
+    padding-bottom: 20px;
+    font-family: sans-serif;
+}
+.flex{
+    padding: 20px 0;
+}
+.flex-content{
+    display: flex;
+    justify-content: space-between;
+}
+.column{
+    width: 48%;
+}
+.column img{
+    max-width: 100%;
+}
+.column a{
+    color: rgba(0, 0, 0, 0.658);
+    padding: 10px 0;
+    display: block;
+}
+.column h1{
+    color: rgba(0, 0, 0, 0.747);
+    padding: 10px 0;
+}
+.column p{ 
+    color: rgba(0, 0, 0, 0.897);
+    padding-bottom: 15px;
+    font-family: sans-serif;
+}
+
+footer{
+    background-color:rgba(0, 0, 0, 0.062);
+    padding: 15px 0;
+}
+.links{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.left{
+ width: 50%;
+}
+
+.left ul{
+display: flex;
+justify-content: flex-start;
+}
+.left ul li{
+    padding: 15px 5px;
+}
+.left ul li a{   
+    color: rgba(0, 0, 0, 0.658);
+}
+
+
+.right{
+    width: 50%;
+   }
+.right ul{
+display: flex;
+justify-content: flex-end;
+}
+.right ul li{
+    padding: 15px 5px;
+}
+.right ul li a{
+color: rgba(0, 0, 0, 0.658);
+}
+
